@@ -1,6 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Layout from "./components/Layout";
+import { Route, Switch, HashRouter } from "react-router-dom";
+import Layout from "./pages/Layout";
 
 const app = document.getElementById('app');
-ReactDOM.render(<Layout/>, app);
+ReactDOM.render((
+  <HashRouter>
+    <Route path='/' component={Layout} />
+  </HashRouter>),
+  app,
+);
