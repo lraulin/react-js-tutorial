@@ -1,0 +1,15 @@
+export const projectsList = [
+  "wikipedia_viewer",
+  "twitchtv_app",
+  "random_quote_machine",
+  "jquery_calculator",
+  "pomodoro_clock",
+  "tictactoe",
+  "simon",
+  "tribute_lovelace",
+  "fcc-markdown-previewer",
+  "fcc-leaderboard",
+  "fcc-recipebox",
+  "fcc-game-of-life",
+  "die-roller",
+];

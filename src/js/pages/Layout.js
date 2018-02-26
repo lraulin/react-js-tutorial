@@ -1,8 +1,9 @@
 import React from 'react'
 import { Route } from 'react-router-dom'
-import Todos from './Todos'
-import Favorites from './Favorites'
-import Settings from './Settings'
+import Resume from './Resume'
+import Projects from './Projects'
+import Bio from './Bio'
+import CodeSchool from './CodeSchool'
 import Nav from '../components/Layout/Nav'
 import Footer from '../components/Layout/Footer'
 
@@ -21,9 +22,10 @@ export default class Layout extends React.Component {
         <Nav location={location} />
         <div className='container' style={containerStyle}>
           <div>
-            <Route path='/favorites' component={Favorites} />
-            <Route path='/settings' component={Settings} />
-            <Route exact path='/' component={Todos} />
+            <Route path='/projects' component={Projects} />
+            <Route path='/bio' component={Bio} />
+            <Route path='/codeschool' component={CodeSchool} />
+            <Route exact path='/' component={Resume} />
           </div>
           <div>
             <Footer />

@@ -1,0 +1,67 @@
+{
+  "it skills": {
+    "languages": [
+      "JavaScript/JSX/ES6", "Python", "C#", "Bash"
+    ],
+    "front-end": [
+      "HTML", "CSS", "Bootstrap","ASP.NET"
+    ],
+    "back-end": [
+      "NodeJS", "MS SQL Server", "Mongo DB", "Firebase", "Django"
+    ],
+    "version control": [
+      "git/Github", "TFVS"
+    ],
+    "misc": [
+      "Linux", "Vim", "MS Visual Studio", "WPF", "MVC"
+    ]
+  },
+  "accomplishments": [
+    "Comleted half dozen front-end projects",
+    "Completed 50+ algorithm scripting challenges"
+  ],
+  "work": [{
+    "company": "Jeongsang Language School",
+    "title": "English Conversation Instructor",
+    "location": "Seoul, Korea",
+    "begin year": 2015,
+    "end year": 2017
+  }, {
+    "company": "Lee Hyeyeon English Academy",
+    "title": "English Conversation Instructor",
+    "location": "Suwon, Korea",
+    "begin year": 2014,
+    "end year": 2014
+  }, {
+    "company": "English Mentor",
+    "title": "English Conversation Instructor",
+    "location": "Jeungpyeong, Korea",
+    "begin year": 2011,
+    "end year": 2012
+  }, {
+    "company": "Plus English Academy",
+    "title": "English Conversation Instructor",
+    "location": "Seoul, Korea",
+    "begin year": 2010,
+    "end year": 2011
+  }, {
+    "company": "Avalon English",
+    "title": "English Conversation Instructor",
+    "location": "Ansan, Korea",
+    "begin year": 2008,
+    "end year": 2009
+  }],
+  "military": [
+    {
+      "highest rank": "E5",
+      "discharge": "honarable",
+      "assignments": {
+        "station": "District 7 Headquarters",
+        "title": "ATON Discrepancy Manager",
+        "location": "Miami, FL",
+        "begin year": 2005,
+        "end year": 2008
+      }
+    }
+  ]
+}

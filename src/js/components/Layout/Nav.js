@@ -17,9 +17,10 @@ export default class Nav extends React.Component {
     const { collapsed } = this.state
     const { pathname } = this.props.location
     const navClass = collapsed ? 'collapse' : ''
-    const TodosClass = pathname === '/' ? 'active' : ''
-    const FavoritesClass = pathname.match(/^\/archives/) ? 'active' : ''
-    const settingsClass = pathname.match(/^\/settings/) ? 'active' : ''
+    const resumeClass = pathname === '/' ? 'active' : ''
+    const projectsClass = pathname.match(/^\/projects/) ? 'active' : ''
+    const bioClass = pathname.match(/^\/bio/) ? 'active' : ''
+    const codeSchoolClass = pathname.match(/^\/codeschool/) ? 'active' : ''
     return (
       <nav className='navbar navbar-inverse navbar-fixed-top'>
         <div className='container-fluid'>
@@ -33,9 +34,10 @@ export default class Nav extends React.Component {
           </div>
           <div className={'navbar-collapse ' + navClass} id='navbarContent'>
             <ul className='nav navbar-nav'>
-              <li className={TodosClass}><NavLink to='/' onClick={this.toggleClass.bind(this)}>Todos</NavLink></li>
-              <li className={FavoritesClass}><NavLink to='/favorites' onClick={this.toggleClass.bind(this)}>Favorites</NavLink></li>
-              <li className={settingsClass}><NavLink to='/settings' onClick={this.toggleClass.bind(this)}>Settings</NavLink></li>
+              <li className={resumeClass}><NavLink to='/' onClick={this.toggleClass.bind(this)}>Resume</NavLink></li>
+              <li className={projectsClass}><NavLink to='/projects' onClick={this.toggleClass.bind(this)}>Projects</NavLink></li>
+              <li className={bioClass}><NavLink to='/bio' onClick={this.toggleClass.bind(this)}>Bio</NavLink></li>
+              <li className={codeSchoolClass}><NavLink to='/codeschool' onClick={this.toggleClass.bind(this)}>CodeSchool</NavLink></li>
             </ul>
           </div>
         </div>
