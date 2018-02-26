@@ -25,6 +25,7 @@ export default class Footer extends React.Component {
           </div>
         </div>
         <div class="col-md-4"></div>
+        // TODO: Fix styling
         <div class="col-md-4">
           <h3>Social Media</h3>
           <ul>
