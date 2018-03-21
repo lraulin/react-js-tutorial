@@ -1,4 +1,5 @@
 import React from 'react';
+import Linkedin from '../Icons/Linkedin';
 
 export default class Footer extends React.Component {
   render() {
@@ -25,13 +26,12 @@ export default class Footer extends React.Component {
           </div>
         </div>
         <div class="col-md-4"></div>
-        // TODO: Fix styling
         <div class="col-md-4">
           <h3>Social Media</h3>
+          <Linkedin />
           <ul>
             <li>
               <a class="button social" href="https://www.linkedin.com/in/leeraulin/">
-                <i class="fa fa-fw fa-linkedin"></i>
               </a>
             </li>
             <li>
